@@ -32,23 +32,23 @@ col_vo_minutes10.addEventListener('click', function(){
 });
 
 weather_sun.addEventListener('click', function(){
-    fon.src="video/beach.mp4";
-    song.src="sounds/beach.mp3";
+    fon.src="beach.mp4";
+    song.src="beach.mp3";
 });
 
 weather_rain.addEventListener('click', function(){
-    fon.src="video/rain.mp4";
-    song.src="sounds/rain.mp3";
+    fon.src="rain.mp4";
+    song.src="rain.mp3";
 });
 
 col_vo_minutes_knopka.addEventListener('click', function(){
     if(song.paused){
-        col_vo_minutes_knopka.src="./svg/pause.svg";
+        col_vo_minutes_knopka.src="pause.svg";
         song.play();
         fon.play();
     }
     else{
-        col_vo_minutes_knopka.src="./svg/play.svg";
+        col_vo_minutes_knopka.src="play.svg";
         song.pause();
         fon.pause();
     }
@@ -73,7 +73,7 @@ song.ontimeupdate = function(){
     }
     if(seconds <= 0){
         col_vo_minutes_chisla.textContent = ("00:00");
-        col_vo_minutes_knopka.src="./svg/play.svg"; 
+        col_vo_minutes_knopka.src="play.svg"; 
     }
 };
 

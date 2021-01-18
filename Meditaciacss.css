@@ -1,0 +1,105 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+ 
+video{
+    position: fixed;
+    z-index: -5;
+    width: 100%;
+}
+
+ul{
+    
+    
+}
+
+button{
+    background-color:rgba(250, 250, 250, 0);
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin:40px;
+    border: solid 5px white;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+}
+
+p{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+}
+
+.diiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiivvvvvvvv{
+    text-align: center;
+    position: relative;
+}
+
+.contener{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 189px;
+}
+
+.sun{
+    text-align: center;
+    height: 100px; 
+    width: 100px;
+}
+
+.sun_button{
+    border-radius: 50%;
+    background-color:rgb(190, 79, 60);
+    height: 130px; 
+    width: 130px;
+    text-align: center; 
+    padding-top:15px;  
+}
+
+.rain_button{
+    text-align: center; 
+    padding-top:45px;  
+}
+.sun{
+    text-align: center;
+    height: 100px; 
+    width: 100px;
+}
+.rain{
+    margin-top:45px; 
+    background-color:rgb(60, 101, 190); 
+     border-radius: 50%;
+     height: 130px; 
+     width: 130px;
+     text-align: center;
+}
+
+
+.white{
+    position: absolute;
+   right: -195px;
+   top: 50px;
+    z-index: -3;
+}
+
+.blue{
+   position: absolute;
+   top :50px;
+   right: -195px;
+   transform: rotate(-90deg);
+}
+
+.chisla{
+    position: absolute;
+    bottom :5px;
+    right:5px;
+}
+
+.play{
+    position: absolute;
+    top:100px;
+    right: -25px;
+}
